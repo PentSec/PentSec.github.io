@@ -1,0 +1,100 @@
+/* About */
+h2 {
+	margin-bottom: 0;
+}
+
+.about-staff {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.prev-epr {
+	margin: 30px auto 0 auto;
+	margin-bottom: 30px;
+	border-top: 1px solid black;
+}
+
+.about-epr,
+.prev-epr {
+	flex: 1 0 100%;
+}
+
+.abt-epr p {
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+/* Meter */
+.meter-container {
+	text-align: left;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.meter {
+	width: 100%;
+	background: #595a5b;
+}
+
+.skills {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+	color: white;
+}
+
+
+/* Staff */
+.staff-team {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 20px auto 10px auto;
+	width: 95%;
+}
+
+.staff {
+	background: linear-gradient(#4286f4, #70d8ff) fixed;
+	padding: 40px 0;
+}
+
+.staff h2 {
+	color: white;
+	text-align: center;
+	margin-top: 0;
+}
+
+.staff-team > div {
+	padding: 15px;
+	margin: 5px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-align: center;
+}
+
+.staff-team img {
+	width: 200px;
+	margin-top: 20px;
+}
+
+.ma {width: 78%; background: #f44141;}
+.mb {width: 96%; background: #33af33;}
+.mc {width: 98%; background: #4286f4;}
+
+.owner,
+.manager,
+.admin {
+	padding: 12px;
+}
+
+.owner {background-color: rgba(244, 65, 65, .5);}
+.manager {background-color: rgba(66, 134, 244, .5);}
+.admin {background-color: rgba(59, 211, 42, .5);}
+
+/* Footer */
+footer {
+	margin-top: 0;
+}
