@@ -47,14 +47,32 @@ body::after{
 img{
     width: 300px;
 }
-.background img{
-    position: absolute;
+.background {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
-    z-index: -20;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden; /* Asegura que no haya scrollbars */
 }
+.background img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .background img {
+        object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    }
+}
+
 .bg-overlay{
     height: 100vh;
     width: 100vw;
@@ -341,21 +359,29 @@ img{
 /* CONTACT BAR */
 .letsTalk{
     text-align: center;
-    position: relative;;
+    position: relative;
     width: 100px;
     bottom: -10px;
     left: 0px;
     cursor: pointer;
     z-index: 1;
-   
+    margin-top: 20px;   
 }
 .phone-contact{
     display: grid;
     position: relative;;
-    width: 100px;
     bottom: 10px;
+    width: 100px;
+    max-width: 100%;
+    height: auto; 
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .phone-contact {
+        width: 50px; 
+    }
 }
 
 
@@ -366,8 +392,7 @@ img{
 }
 @keyframes letsTalk1 {
     form{
-       color: var(--w-non-selected-text);
-      
+    color: var(--w-non-selected-text); 
     }
     to{
         color: rgba(252, 0, 252, 0.295);
