@@ -1,2 +1,0 @@
-# electrobash.github.io
-web
