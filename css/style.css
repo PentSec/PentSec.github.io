@@ -155,7 +155,6 @@ img{
 }
 
 .greetings{
-    background: url(./gifs/tumblr_oezv38ikwg1sznfdio1_500.gif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +196,6 @@ img{
     right: 0px;
 }
 .about-section{
-    background: url(./gifs/about.gif);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
