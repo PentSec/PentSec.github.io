@@ -4,7 +4,7 @@ let homeContent = `<div class="content-wrapper">
         <div class="greetings-title">
             <h1 class="t1"> HI </h1>
             <h1 class="t2"> My Name is <span>Jeffreys</span> aka Jeff. </h1>
-            <h1 class="t3"> I am a amateur programmer </h1>
+            <h1 class="t3"> I am an amateur programmer </h1>
         </div>
 
     </div>
