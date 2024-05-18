@@ -66,6 +66,7 @@ img{
     z-index: -1;
     object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
     transform: translate(-50%, -50%);
+    -webkit-filter: blur(4px);
 }
 
 @media (max-width: 768px) {
@@ -376,13 +377,6 @@ width: 150px;
     z-index: 2;
 }
 
-@media (max-width: 768px) {
-    .phone-contact {
-        width: 50px; 
-    }
-}
-
-
 .letsTalk-icon{
     font-size: 30px;
     color: var(--w-non-selected-text);
@@ -553,7 +547,7 @@ width: 150px;
         height: 300px;
       }
       .phone-contact{
-          width: 100px;
+          width: 50px;
       }
       .letsTalk {
           width: 110px;

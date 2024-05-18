@@ -474,9 +474,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let openContact = new TimelineMax({ paused: true, reversed: true });
   phoneContact.addEventListener("click", () => {
     phoneContact.classList.toggle("opened");
-
     openContact.reversed() ? openContact.play() : openContact.reverse();
-
     openContact.to(".interface-settings li", 0.3, {
       x: 550
     });
