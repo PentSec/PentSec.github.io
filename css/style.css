@@ -27,6 +27,7 @@ body{
     color:var(--y-non-selected-text);
     overflow: hidden;    
 }
+
 body::after{
     content: '';
     position: absolute;
@@ -101,12 +102,10 @@ img{
     font-size: 40px;
     color: var(--y-non-selected-text);  
     cursor: pointer;   
-   
 }
 
 .nav-bar li:hover{
     color:var(--y-selected-text);
-   
 }
 
 
@@ -118,12 +117,14 @@ img{
     width: 70%;
     position: absolute;
     left: 17%;
+    bottom: -535px;
     top: 150px;
     -webkit-box-shadow: inset 200px 21px 194px 20px #12a6c03b;
     -moz-box-shadow: inset 200px 21px 194px 20px #c012b73b;
     box-shadow: inset 200px 21px 194px 20px #12c0953b;
     margin: auto;
 }
+
 .content-card::before {
     content: ' ';
     position: absolute;
@@ -143,7 +144,7 @@ img{
     right: 0px;
 }
 .greetings-title {
-    padding: 160px 10px 160px 60px;
+    padding: 100px 60px 160px 60px;
     position: relative;
     line-height: 70px;
     text-align: left;
