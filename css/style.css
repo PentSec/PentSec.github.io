@@ -122,6 +122,7 @@ img{
     -webkit-box-shadow: inset 200px 21px 194px 20px #12a6c03b;
     -moz-box-shadow: inset 200px 21px 194px 20px #c012b73b;
     box-shadow: inset 200px 21px 194px 20px #12c0953b;
+    margin: auto;
 }
 .content-card::before {
     content: ' ';
