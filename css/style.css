@@ -117,7 +117,6 @@ img{
     width: 70%;
     position: absolute;
     left: 17%;
-    bottom: -535px;
     top: 150px;
     -webkit-box-shadow: inset 200px 21px 194px 20px #12a6c03b;
     -moz-box-shadow: inset 200px 21px 194px 20px #c012b73b;
@@ -254,8 +253,7 @@ img{
     justify-content: space-evenly;
 }
 .work-project-card{
-   display: grid;
-  
+    display: grid;
 }
 .work-project-card-title{
     font-size: 30px;
@@ -266,7 +264,7 @@ img{
     cursor: pointer;
 }
 .qr-card{
-   width: 150px;
+width: 150px;
     
 }
 .workPic{
@@ -430,17 +428,17 @@ img{
 .interface-settings{
     position: fixed;
     bottom: 15px;
-    left: -400px;
+    left: -450px;
 }
 .interface-settings ul{
     display: flex;
 }
 .interface-settings li{
-    padding: 20px;
+    padding: 5px;
 }
 .interface-settings i{
-    font-size: 40px;
-    padding-top:30px ;
+    font-size: 30px;
+    padding-top: 30px;
 }
 .sound-settings{
     position: fixed;
@@ -458,7 +456,7 @@ img{
 @media screen and (max-width: 1390px) {
     .content-card{
         top: 90px;
-        height: 500px;
+        height: 400px;
     }
     .greetings-title{
         font-size: 45px;
@@ -473,7 +471,7 @@ img{
     }
     .work-gallery{
         overflow-y: scroll;   
-        height: 400px;
+        height: 350px;
        
     }
     .work-content-card{
@@ -490,6 +488,7 @@ img{
         font-size: 20px;
     }
     .skills-content{
+        height: 350px;
         top: 100px;
         padding: 60px 0 60px 100px;
     }
